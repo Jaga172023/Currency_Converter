@@ -1,0 +1,62 @@
+body {
+    background: grey;
+    margin: 0; padding: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background: steelblue;    
+    box-shadow: -3px -5px 15px rgba(0, 255, 255, 0.7);
+    padding: 0px 25px 25px 15px;
+    border-radius: 15px;
+    min-width: 300px; max-width: 380px;
+}
+
+h1 {
+    font-size: 25px;
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+}
+
+.currencyContainer {
+    display: block;
+    justify-content: space-between;
+}
+
+.firstCurrency, .secondCurrency {
+    padding: 7px;
+}
+
+.secondCurrency {
+   padding: 0px 125px;
+}
+
+.currencyContainer select {
+    padding: 7px;
+    color: black;
+    border: none; border-radius: 2px;
+}
+
+.currencyContainer input {
+    padding: 7px;
+    border: none;
+    border-color: rgba(0, 255, 255, 0.925);
+    font-size: 15px; font-weight: bold;
+    text-align: right; color: black;
+    border-radius: 2px;
+}
+
+.exRate {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px; color: aliceblue; font-weight: bolder;
+}
+
+select:focus, input:focus {
+    outline: none;
+}
