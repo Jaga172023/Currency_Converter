@@ -32,8 +32,8 @@ h1 {
     padding: 7px;
 }
 
-.secondCurrency {
-   padding: 0px 125px;
+.outputCurrency {
+    background: aliceblue;
 }
 
 .currencyContainer select {
